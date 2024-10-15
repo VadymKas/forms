@@ -16,7 +16,7 @@ const LoginForm = () => {
 
   return (
     <form
-      className='flex flex-col border rounded shadow-md px-10 py-6'
+      className='flex flex-col border rounded bg-gray-50 shadow-md px-10 py-6'
       onSubmit={handleSubmit(onSubmit)}>
       <h2 className='text-2xl font-semibold text-center mb-5'>
         Registration form
@@ -68,7 +68,7 @@ const LoginForm = () => {
         create account
       </button>
       <div className='relative w-full flex items-center justify-center border-t border-t-blue-medium mb-6'>
-        <span className='absolute font-semiblod bg-white px-5 -mt-1'>
+        <span className='absolute font-semiblod bg-gray-50 px-5 -mt-1'>
           or sign up with
         </span>
       </div>
